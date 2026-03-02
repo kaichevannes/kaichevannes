@@ -23,7 +23,7 @@ jobs:
       - name: PageSpeed Insights
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.pagespeed.svg
+          filename: pagespeed.svg
           token: NOT_NEEDED
           base: ""
           plugin_pagespeed: yes
