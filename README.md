@@ -1,2 +1,1 @@
-![Metrics](/github-metrics.svg)
-![Pagespeed](/pagespeed.svg)
+![Metrics](/github-metrics.svg)![PagespeedLeetcode](/pagespeed-leetcode.svg)
