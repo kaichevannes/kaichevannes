@@ -23,18 +23,11 @@ jobs:
       - name: PageSpeed Insights
         uses: lowlighter/metrics@latest
         with:
-          filename: pagespeed.svg
+          filename: pagespeed-leetcode.svg
           token: NOT_NEEDED
           base: ""
           plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://kaichevannes.com
-      - name: LeetCode
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.leetcode.svg
-          token: NOT_NEEDED
-          base: ""
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
