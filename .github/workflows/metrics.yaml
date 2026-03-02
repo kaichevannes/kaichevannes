@@ -28,6 +28,6 @@ jobs:
           base: ""
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: kaichevannes.com
+          plugin_pagespeed_url: https://kaichevannes.com
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
